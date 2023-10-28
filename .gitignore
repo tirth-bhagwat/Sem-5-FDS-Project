@@ -1,0 +1,49 @@
+# Ignore system and environment-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.DS_Store
+
+# Ignore data and results files (customize this section based on your project)
+/data/
+/results/
+
+# Ignore virtual environment files
+venv/
+env/
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore configuration files with sensitive information (e.g., API keys)
+config.ini
+secrets.ini
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore any log files or generated documentation
+*.log
+*.html
+
+# Ignore generated data files (e.g., CSVs, Excel files)
+*.csv
+*.xlsx
+*.zip
+*.sqlite
+*.sqlite*
+
+# Ignore any user-specific or editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore project-specific files or directories
+# project_specific_folder/
+Datasets/
